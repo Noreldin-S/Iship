@@ -1,19 +1,22 @@
-<div class="card">
-  <div class="card-header">
-    <h2>Login</h2>
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4 text-center">Login</h1>
+    <p class="lead text-center">Enter your email and password</p>
   </div>
-  <form id="login-form" class="card-body">
-    <div>
-      <label for="username-input-login">Username</label>
-      <input type="text" id="username-input-login" />
-    </div>
-    <div>
-      <label for="password-input-login" class="form-label">Password</label>
-      <input type="password" id="password-input-login" />
-    </div>
-    <button type="submit" id="login-btn" class="btn">Login!</button>
-    <a type="button" href="/signup">Sign up instead</a>
+</div>
+<!-- /Jumbotron -->
+<!-- Login Box -->
+<div class="loginBox">
+  <img src="./images/avatar.png" alt="Avatar" class="avatar">
+  <form class="loginForm">
+    <p>User Email Address</p>
+    <input type="text" name="" placeholder="Enter Email Address">
+    <p>Password</p>
+    <input type="password" name="" placeholder="Enter Password">
+    <input type="submit" name="" value="Login">
+    <a href="#" class="forgotPass">Forgot your password?</a><br>
+    <a href="#" class="createAcc">Create an account</a>
   </form>
 </div>
-
 <script src="/js/login.js"></script>

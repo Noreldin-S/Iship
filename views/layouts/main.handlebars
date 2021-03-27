@@ -9,7 +9,6 @@
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
 </head>
-
 <body>
     <!-- Start of Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -23,16 +22,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="dashboard.html">Dashboard</a>
+                        <a class="nav-link" href="/dashboard">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shipments.html">Shipments</a>
+                        <a class="nav-link" href="/rates">Shipments</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="orders.html">Orders</a>
+                        <a class="nav-link" href="/orders">Orders</a>
+                    </li>
+                    {{!-- Needs on-click to log out of user --}}
+                    <li class="logoutButton">
+                        <a class="nav-link" href="/login">Orders</a>
                     </li>
                     {{#if logged_in}}
-                    <a href="/profile">profile</a> |
+                    <a href="/dashboard">profile</a> |
                     <button class="no-button" id="logout">logout</button>
                     {{else}}
                     <a href="/login">login</a>
