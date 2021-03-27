@@ -19,11 +19,13 @@
 
 // const orderSeed = require("./orderSeed");
 const userSeed = require("./userSeed");
+const orderSeed = require("./orderSeed");
 const sequelize = require("../config/connection");
 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
   await userSeed();
+  await orderSeed();
   process.exit(0);
 };
 seedAll();
