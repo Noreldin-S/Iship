@@ -3,14 +3,13 @@ const {
 
 } = require('shipit');
 
-const upsClient = new IshipClient({
-  licenseNumber: process.env.UPS_LICENSE,
-  userId: process.env.UPS_USER_ID,
-  password: process.env.UPS_PASSWORD
+const IshipClient = new IshipClient({
+  licenseNumber: process.env.Iship_LICENSE,
+  userId: process.env.Iship_USER_ID,
+  password: process.env.Iship_PASSWORD
 });
 
 
 module.exports = {
-  upsClient,
-  fedexClient,
+  IshipClient,
 };
