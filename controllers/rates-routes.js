@@ -11,12 +11,8 @@ router.get('/', (req, res) => {
     return;
   }
 
-  res.render('login');
+  res.render('rates');
 });
-
-
-
-
 
 
 module.exports = router;
