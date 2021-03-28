@@ -25,6 +25,9 @@ body {
 .col-lg-9 {
   margin-top: 70px;
 }
+.col-lg-12 {
+  margin-top: 70px;
+}
 .footer {
   position: absolute;
   bottom: 0;
