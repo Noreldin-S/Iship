@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS iship_db;
+
+CREATE DATABASE iship_db;
