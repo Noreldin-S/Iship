@@ -161,7 +161,7 @@ body {
   line-height: 20px;
   color: darkgrey;
 }
-.loginForm input[type="submit"] {
+.loginForm input[type="button"] {
   border: none;
   outline: none;
   height: 40px;
