@@ -9,8 +9,7 @@ router.get('/', (req, res) => {
     return;
   }
 
-  res.render('dashboard');
+  res.render('example');
 });
-
 
 module.exports = router;
