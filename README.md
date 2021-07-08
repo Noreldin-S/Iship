@@ -1,5 +1,7 @@
 [Author](#author)
+<br />
 [Contribute](#contribute)
+<br />
 [Visualization of App Interface](#visualization-of-app-interface)
 ---
 
